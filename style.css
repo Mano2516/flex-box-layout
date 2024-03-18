@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logo {
+    background-color: #eee;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 15%;
+
+}
+.nav {
+    flex-basis: 85%;
+    background-color: #eee;
+
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    gap: 50px;
+    margin-right: 30px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    display: flex;
+    gap : 20px ;
+    height: calc(100vh - 180px);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content {
+    width: 65%;
+    background-color: #eee;
+    padding: 20px;
+}
+.side {
+    width : 35% ;
+    background-color: #eee;
+    padding: 20px;
+}
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.footer .copy {
+    height: 40px;
+    background-color: #eee;
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer .design {
+    flex-basis: 65%;
+    height: 40px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
